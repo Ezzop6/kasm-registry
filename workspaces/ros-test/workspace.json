@@ -4,9 +4,15 @@
   "image_src": "chromium.png",
   "name": "ezzop6/kasm-ros-noetic:latest",
   "run_config": {
-    "security_opt": ["seccomp=unconfined"],
-    "entrypoint": ["/kasminit"],
-    "user": 1000
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
   },
   "exec_config": {},
   "categories": ["Desktop"],

@@ -4,14 +4,12 @@
   "image_src": "chromium.png",
   "name": "ezzop6/kasm-ros-noetic:latest",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "kasm-ros-noetic"
   },
   "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
     }
   },
   "categories": ["Desktop"],

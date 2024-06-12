@@ -14,10 +14,9 @@
       "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
     }
   },
-  "exec_config": {},
   "categories": ["Desktop"],
   "friendly_name": "ROS Noetic Ubuntu 20.04",
   "architecture": ["amd64"],
   "compatibility": ["1.15.x"],
-  "uncompressed_size_mb": 2200
+  "uncompressed_size_mb": 9960
 }

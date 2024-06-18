@@ -2,7 +2,7 @@
   "description": "Ubuntu with ROS Noetic desktop",
   "docker_registry": "https://hub.docker.com/",
   "image_src": "chromium.png",
-  "name": "ezzop6/ros-test:latest",
+  "name": "ezzop6/kasm-ros-noetic:latest",
   "run_config": {
     "hostname": "kasm"
   },

@@ -1,0 +1,15 @@
+{
+  "description": "Ubuntu with ROS Noetic desktop",
+  "docker_registry": "https://hub.docker.com/",
+  "image_src": "chromium.png",
+  "name": "ezzop6/kasm-ros-noetic:latest",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {},
+  "categories": ["Desktop"],
+  "friendly_name": "ROS Noetic Ubuntu 20.04 Desktop version",
+  "architecture": ["amd64"],
+  "compatibility": ["1.15.x"],
+  "uncompressed_size_mb": 9960
+}

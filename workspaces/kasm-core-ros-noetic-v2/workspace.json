@@ -1,0 +1,15 @@
+{
+  "description": "ROS Noetic",
+  "docker_registry": "https://hub.docker.com/",
+  "image_src": "noetic-background.png",
+  "name": "ezzop6/kasm-core-ros-noetic-v2:latest",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {},
+  "categories": ["Desktop, ROS, Ubuntu 20.04"],
+  "friendly_name": "ROS Noetic v2",
+  "architecture": ["amd64"],
+  "compatibility": ["1.15.x"],
+  "uncompressed_size_mb": 9960
+}
